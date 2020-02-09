@@ -9,7 +9,7 @@
 </template>
 
 <style scoped>
-    
+    /* Style */
 </style>
 
 <script>
