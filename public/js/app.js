@@ -237,6 +237,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Register"
 });
@@ -285,6 +288,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _HomeComponents_Navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HomeComponents/Navbar */ "./resources/js/components/Views/HomeComponents/Navbar.vue");
+//
+//
 //
 //
 //
@@ -519,7 +524,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Navbar",
@@ -542,7 +546,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\nspan[data-v-9a217f7a] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    padding-bottom: 20px;\n}\ninput[data-v-9a217f7a] {\n    margin-bottom: 10px;\n    margin-top: 5px;\n    padding: 7px;\n    font-size: 15px;\n    width: 20vw;\n    border-radius: 5px;\n    font-family: 'Raleway', sans-serif;\n    border: 1px solid rgb(206, 206, 206);\n}\n#root[data-v-9a217f7a] {\n    font-family: 'Quicksand', sans-serif;\n}\n#banner-title[data-v-9a217f7a] {\n    padding: 30px;\n    margin: 0;\n    font-size: 50px;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#banner-blurb[data-v-9a217f7a] {\n    padding: 30px;\n    font-size: 20px;\n    color: #ffffff;\n    font-family: 'Raleway', sans-serif;\n}\n#banner[data-v-9a217f7a] {\n    background-color: #00A896;\n    height: 100vh;\n    width: 30%;\n    min-width: 300px;\n    overflow: hidden;\n    position: fixed;\n    z-index: -100;\n}\n#registration[data-v-9a217f7a] {\n    display: -webkit-box;\n    display: flex;\n    float: right;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n    width: 70%;\n}\n#reg-form[data-v-9a217f7a] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    margin-top: 10%;\n    color: #00A896;\n    font-size: 25px;\n}\n#submit-button[data-v-9a217f7a] {\n    padding: 10px;\n    align-self: center;\n    width: 12vw;\n    font-size: 25px;\n    background-color: #00A896;\n    border: none;\n    font-family: 'Quicksand', sans-serif;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#newsletter-input[data-v-9a217f7a] {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n    font-size: 22px;\n}\n#checkbox[data-v-9a217f7a] {\n    width: 0;\n    margin-right: 5px;\n    vertical-align: middle; /* Not working? */\n}\n", ""]);
+exports.push([module.i, "\nspan[data-v-9a217f7a] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    padding-bottom: 5%;\n}\ninput[data-v-9a217f7a] {\n    margin-bottom: 3%;\n    margin-top: 5px;\n    padding: 7px;\n    font-size: 15px;\n    width: 40vh;\n    border-radius: 5px;\n    font-family: 'Raleway', sans-serif;\n    border: 1px solid rgb(206, 206, 206);\n}\n#root[data-v-9a217f7a] {\n    font-family: 'Quicksand', sans-serif;\n    /* height: 85.5vh; */\n    height: 100vh;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n}\n#banner-title[data-v-9a217f7a] {\n    padding: 30px;\n    margin: 0;\n    font-size: 50px;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#banner-blurb[data-v-9a217f7a] {\n    padding: 30px;\n    font-size: 20px;\n    color: #ffffff;\n    font-family: 'Raleway', sans-serif;\n}\n#banner[data-v-9a217f7a] {\n    background-color: #00A896;\n    height: 100%;\n    width: 30%;\n    min-width: 300px;\n    /* position: relative; */\n    /* overflow: hidden; */\n    z-index: -100;\n}\n#registration[data-v-9a217f7a] {\n    display: -webkit-box;\n    display: flex;\n    float: right;\n    margin-top: 7%;\n    -webkit-box-pack: center;\n            justify-content: center;\n    width: 70%;\n}\n#reg-form[data-v-9a217f7a] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    color: #00A896;\n    font-size: 25px;\n}\n#submit-button[data-v-9a217f7a] {\n    padding: 10px;\n    align-self: center;\n    width: 12vw;\n    font-size: 25px;\n    background-color: #00A896;\n    border: none;\n    font-family: 'Quicksand', sans-serif;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#newsletter-input[data-v-9a217f7a] {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n    font-size: 22px;\n}\n#checkbox[data-v-9a217f7a] {\n    width: 0;\n    margin-right: 5px;\n    vertical-align: middle; /* Not working? */\n}\n", ""]);
 
 // exports
 
@@ -580,7 +584,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n/* Style */\n", ""]);
+exports.push([module.i, "\n.container[data-v-7355cd05] {\n    height: 100%;\n}\n", ""]);
 
 // exports
 
@@ -618,7 +622,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\n#root[data-v-7283b18e] {\n    font-family: 'Quicksand', sans-serif;\n}\n.router-link[data-v-7283b18e] {\n    text-decoration: none;\n    color: #ffffff;\n}\n#top-container[data-v-7283b18e] {\n    background-color: #00A896;\n    padding: 6px;\n    vertical-align: middle;\n    text-align: end;\n    position: relative;\n    box-shadow: 0 1px 5px #0000004a;\n}\n#bottom-container[data-v-7283b18e] {\n    background-color: #B2EDE0;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    padding: 10px;\n    box-shadow: 0 3px 5px #0000007a;\n}\nimg[data-v-7283b18e] {\n    width: 150px;\n    margin-left: 10px;\n    cursor: pointer;\n}\n#categories[data-v-7283b18e] {\n    display: -webkit-box;\n    display: flex;\n    margin-left: 5%;\n}\n#icons[data-v-7283b18e] {\n    /* margin-left: 50%; */\n    /* hoo */\n}\nsvg[data-v-7283b18e] {\n    width: 30px;\n    padding: 10px;\n}\n#register[data-v-7283b18e], #login[data-v-7283b18e] {\n    margin-right: 20px;\n}\n", ""]);
+exports.push([module.i, "\n#root[data-v-7283b18e] {\n    font-family: 'Quicksand', sans-serif;\n}\n.router-link[data-v-7283b18e] {\n    text-decoration: none;\n    color: #ffffff;\n}\n#top-container[data-v-7283b18e] {\n    background-color: #00A896;\n    padding: 6px;\n    vertical-align: middle;\n    text-align: end;\n    position: relative;\n    box-shadow: 0 1px 5px #0000004a;\n}\n#bottom-container[data-v-7283b18e] {\n    background-color: #B2EDE0;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    padding: 10px;\n    box-shadow: 0 3px 5px #0000007a;\n}\nimg[data-v-7283b18e] {\n    width: 150px;\n    margin-left: 10px;\n    cursor: pointer;\n}\n#categories[data-v-7283b18e] {\n    display: -webkit-box;\n    display: flex;\n    margin-left: 5%;\n}\n#icons[data-v-7283b18e] {\n    margin: 0 0 0 auto;\n}\nsvg[data-v-7283b18e] {\n    width: 30px;\n    padding: 10px;\n}\n#register[data-v-7283b18e], #login[data-v-7283b18e] {\n    margin-right: 20px;\n}\n", ""]);
 
 // exports
 
@@ -1940,8 +1944,7 @@ var staticRenderFns = [
             attrs: { id: "submit-button", type: "submit", value: "Register" }
           })
         ])
-      ]),
-      _vm._v("git \n")
+      ])
     ])
   }
 ]

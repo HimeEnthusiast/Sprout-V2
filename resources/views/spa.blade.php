@@ -8,7 +8,7 @@
         <title>sprout</title>
     </head>
 
-    <body style="margin: 0; font-family: 'Quicksand', sans-serif;">
+    <body style="margin: 0; font-family: 'Quicksand', sans-serif; height: 100%; padding: 0;">
         <div id="app">
             <app></app>
         </div>

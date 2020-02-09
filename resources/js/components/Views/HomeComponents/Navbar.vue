@@ -99,8 +99,7 @@
     }
 
     #icons {
-        /* margin-left: 50%; */
-        /* hoo */
+        margin: 0 0 0 auto;
     }
 
     svg {

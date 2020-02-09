@@ -9,7 +9,9 @@
 </template>
 
 <style scoped>
-    /* Style */
+    .container {
+        height: 100%;
+    }
 </style>
 
 <script>

@@ -26,7 +26,7 @@
 
                 <input id="submit-button" type="submit" value="Register" />
             </form>
-        </div>git 
+        </div>
     </div>
 </template>
 
@@ -36,15 +36,15 @@
     span {
         display: flex;
         flex-direction: column;
-        padding-bottom: 20px;
+        padding-bottom: 5%;
     }
 
     input {
-        margin-bottom: 10px;
+        margin-bottom: 3%;
         margin-top: 5px;
         padding: 7px;
         font-size: 15px;
-        width: 20vw;
+        width: 40vh;
         border-radius: 5px;
         font-family: 'Raleway', sans-serif;
         border: 1px solid rgb(206, 206, 206);
@@ -52,6 +52,10 @@
 
     #root {
         font-family: 'Quicksand', sans-serif;
+        /* height: 85.5vh; */
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
     }
 
     #banner-title {
@@ -71,18 +75,18 @@
 
     #banner {
         background-color: #00A896;
-        height: 100vh;
+        height: 100%;
         width: 30%;
         min-width: 300px;
-        overflow: hidden;
-        position: fixed;
+        /* position: relative; */
+        /* overflow: hidden; */
         z-index: -100;
     }
 
     #registration {
         display: flex;
         float: right;
-        align-items: center;
+        margin-top: 7%;
         justify-content: center;
         width: 70%;
     }
@@ -90,7 +94,6 @@
     #reg-form {
         display: flex;
         flex-direction: column;
-        margin-top: 10%;
         color: #00A896;
         font-size: 25px;
     }
