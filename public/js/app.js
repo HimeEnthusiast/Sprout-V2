@@ -391,6 +391,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Navbar",
@@ -451,7 +452,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.drop[data-v-7283b18e] {\n    margin-left: 10px;\n}\n.router-link[data-v-7283b18e] {\n    text-decoration: none;\n    color: #ffffff;\n}\n#top-container[data-v-7283b18e] {\n    background-color: #90d197;\n    color: #ffffff;\n    padding: 6px;\n    vertical-align: middle;\n    text-align: end;\n}\n#bottom-container[data-v-7283b18e] {\n    background-color: #bae9bf;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    padding: 10px;\n}\nimg[data-v-7283b18e] {\n    width: 150px;\n    margin-left: 10px;\n}\n#categories[data-v-7283b18e] {\n    display: -webkit-box;\n    display: flex;\n    margin-left: 5%;\n}\n#icons[data-v-7283b18e] {\n    /* margin-left: 50%; */\n}\nsvg[data-v-7283b18e] {\n    width: 30px;\n    padding: 10px;\n}\n#register[data-v-7283b18e], #login[data-v-7283b18e] {\n    margin-right: 20px;\n}\n", ""]);
+exports.push([module.i, "\n.drop[data-v-7283b18e] {\n    margin-left: 10px;\n}\n.router-link[data-v-7283b18e] {\n    text-decoration: none;\n    color: #ffffff;\n}\n#top-container[data-v-7283b18e] {\n    background-color: #90d197;\n    color: #ffffff;\n    padding: 6px;\n    vertical-align: middle;\n    text-align: end;\n}\n#bottom-container[data-v-7283b18e] {\n    background-color: #bae9bf;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    padding: 10px;\n}\nimg[data-v-7283b18e] {\n    width: 150px;\n    margin-left: 10px;\n}\n#categories[data-v-7283b18e] {\n    display: -webkit-box;\n    display: flex;\n    margin-left: 5%;\n}\n#icons[data-v-7283b18e] {\n    /* margin-left: 50%; */\n    /* hoo */\n}\nsvg[data-v-7283b18e] {\n    width: 30px;\n    padding: 10px;\n}\n#register[data-v-7283b18e], #login[data-v-7283b18e] {\n    margin-right: 20px;\n}\n", ""]);
 
 // exports
 
