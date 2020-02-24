@@ -234,56 +234,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Login"
 });
@@ -755,7 +705,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\nspan[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    padding-bottom: 4%;\n}\ninput[data-v-3e632c0e] {\n    margin-bottom: 2%;\n    margin-top: 1%;\n    padding: 2%;\n    width: 40vh;\n    border-radius: 5px;\n    font-family: 'Raleway', sans-serif;\n    border: 1px solid rgb(206, 206, 206);\n}\n#root[data-v-3e632c0e] {\n    font-family: 'Quicksand', sans-serif;\n    height: 100%;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n}\n#banner-title[data-v-3e632c0e] {\n    padding: 30px;\n    margin: 2% 0 0 0;\n    font-size: 50px;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#banner-blurb[data-v-3e632c0e] {\n    padding: 0 30px 30px 30px;\n    margin: 0;\n    font-size: 20px;\n    color: #ffffff;\n    font-family: 'Raleway', sans-serif;\n}\n#banner[data-v-3e632c0e] {\n    background-color: #00A896;\n    height: 100%;\n    width: 30%;\n    min-width: 300px;\n    z-index: -100;\n    overflow: hidden;\n    position: relative;\n}\n#sprout-svg[data-v-3e632c0e] {\n    fill: white;\n    width: 60%;\n    display: block;\n    margin: auto;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    top: 0;\n    right: 0;\n    margin-bottom: -20px;\n}\n#login-svg[data-v-3e632c0e] {\n    width: 10%;\n    fill: #00A896;\n}\n#login[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    float: right;\n    margin-top: 5%;\n    -webkit-box-pack: center;\n            justify-content: center;\n    width: 70%;\n}\n#login-form[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    color: #00A896;\n    font-size: 20px;\n}\n#submit-button[data-v-3e632c0e] {\n    padding: 10px;\n    align-self: center;\n    width: 12vw;\n    font-size: 20px;\n    background-color: #00A896;\n    border: none;\n    font-family: 'Quicksand', sans-serif;\n    font-weight: bolder;\n    color: #ffffff;\n}\n", ""]);
+exports.push([module.i, "\nspan[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    padding-bottom: 4%;\n}\ninput[data-v-3e632c0e] {\n    margin-bottom: 2%;\n    margin-top: 1%;\n    padding: 2%;\n    width: 40vh;\n    border-radius: 5px;\n    font-family: 'Raleway', sans-serif;\n    border: 1px solid rgb(206, 206, 206);\n}\n#root[data-v-3e632c0e] {\n    font-family: 'Quicksand', sans-serif;\n    height: 100%;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n}\n#banner-title[data-v-3e632c0e] {\n    padding: 30px;\n    margin: 2% 0 0 0;\n    font-size: 50px;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#banner-blurb[data-v-3e632c0e] {\n    padding: 0 30px 30px 30px;\n    margin: 0;\n    font-size: 20px;\n    color: #ffffff;\n    font-family: 'Raleway', sans-serif;\n}\n#banner[data-v-3e632c0e] {\n    background-color: #00A896;\n    height: 100%;\n    width: 30%;\n    min-width: 300px;\n    z-index: -100;\n    overflow: hidden;\n    position: relative;\n}\n#sprout-svg[data-v-3e632c0e] {\n    fill: white;\n    width: 60%;\n    display: block;\n    margin: auto;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    top: 0;\n    right: 0;\n    margin-bottom: -20px;\n}\n#login-svg[data-v-3e632c0e] {\n    width: 20%;\n    display: block;\n    margin: 15% auto 10% auto;\n}\n#login[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    float: right;\n    margin-top: 5%;\n    -webkit-box-pack: center;\n            justify-content: center;\n    width: 70%;\n}\n#login-form[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    color: #00A896;\n    font-size: 20px;\n}\n#submit-button[data-v-3e632c0e] {\n    padding: 10px;\n    align-self: center;\n    width: 12vw;\n    font-size: 20px;\n    background-color: #00A896;\n    border: none;\n    font-family: 'Quicksand', sans-serif;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#newsletter-input[data-v-3e632c0e] {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n    font-size: 20px;\n}\n#checkbox[data-v-3e632c0e] {\n    width: 0;\n    margin-right: 5px;\n    vertical-align: middle; /* Not working? */\n}\n", ""]);
 
 // exports
 
@@ -2144,178 +2094,7 @@ var render = function() {
       )
     ]),
     _vm._v(" "),
-    _c("div", { attrs: { id: "login" } }, [
-      _c("form", { attrs: { id: "login-form" } }, [
-        _c("span", { attrs: { id: "login-image" } }, [
-          _c(
-            "svg",
-            {
-              attrs: {
-                id: "login-svg",
-                xmlns: "http://www.w3.org/2000/svg",
-                viewBox: "0 0 480 480"
-              }
-            },
-            [
-              _c("g", [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M285.966,273.369c36.162-25.386,44.897-75.281,19.51-111.442s-75.281-44.897-111.442-19.51s-44.897,75.281-19.51,111.442\n                            c5.324,7.584,11.926,14.186,19.51,19.51c-42.717,7.343-73.96,44.35-74.034,87.694V472c-0.001,4.417,3.579,7.999,7.996,8\n                            c0.001,0,0.003,0,0.004,0h224c4.417,0.001,7.999-3.579,8-7.996c0-0.001,0-0.003,0-0.004V361.062\n                            C359.925,317.719,328.683,280.712,285.966,273.369z M176,208c0-35.346,28.654-64,64-64c35.346,0,64,28.654,64,64\n                            c0,35.346-28.654,64-64,64C204.671,271.96,176.04,243.329,176,208z M344,464H136V361.062c0.045-40.332,32.73-73.017,73.063-73.062\n                            h61.875c40.332,0.045,73.017,32.73,73.062,73.062V464z"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: { x: "232", y: "48", width: "16", height: "32" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: {
-                    x: "312.003",
-                    y: "76.672",
-                    transform:
-                      "matrix(0.7071 -0.7071 0.7071 0.7071 36.1983 256.7335)",
-                    width: "32",
-                    height: "16"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: { x: "408", y: "464", width: "32", height: "16" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: { x: "408", y: "384", width: "32", height: "16" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: { x: "408", y: "304", width: "32", height: "16" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: {
-                    x: "400.028",
-                    y: "224.004",
-                    transform:
-                      "matrix(0.9486 -0.3164 0.3164 0.9486 -52.0304 143.5361)",
-                    width: "32",
-                    height: "16"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: {
-                    x: "375.174",
-                    y: "141.039",
-                    transform:
-                      "matrix(0.9486 -0.3164 0.3164 0.9486 -27.0591 131.4119)",
-                    width: "32",
-                    height: "16"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: {
-                    x: "144.004",
-                    y: "68.683",
-                    transform:
-                      "matrix(0.7072 -0.707 0.707 0.7072 -15.3631 132.2722)",
-                    width: "16",
-                    height: "32"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: { x: "40", y: "464", width: "32", height: "16" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: { x: "40", y: "384", width: "32", height: "16" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: { x: "40", y: "304", width: "32", height: "16" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: {
-                    x: "56.004",
-                    y: "215.996",
-                    transform:
-                      "matrix(0.3161 -0.9487 0.9487 0.3161 -176.3279 219.372)",
-                    width: "16",
-                    height: "32"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("rect", {
-                  attrs: {
-                    x: "80.808",
-                    y: "133.076",
-                    transform:
-                      "matrix(0.3163 -0.9487 0.9487 0.3163 -80.7029 186.1785)",
-                    width: "16",
-                    height: "32"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M472,32c-13.249-0.014-23.986-10.751-24-24c0-4.418-3.582-8-8-8s-8,3.582-8,8c-0.014,13.249-10.751,23.986-24,24\n                            c-4.418,0-8,3.582-8,8s3.582,8,8,8c13.249,0.014,23.986,10.751,24,24c0,4.418,3.582,8,8,8s8-3.582,8-8\n                            c0.014-13.249,10.751-23.986,24-24c4.418,0,8-3.582,8-8S476.418,32,472,32z M440,48.023c-2.283-3.039-4.984-5.74-8.023-8.023\n                            c3.039-2.283,5.74-4.984,8.023-8.023c2.283,3.039,4.984,5.74,8.023,8.023C444.984,42.283,442.283,44.984,440,48.023z"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("g", [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M72,32C58.751,31.986,48.014,21.249,48,8c0-4.418-3.582-8-8-8s-8,3.582-8,8C31.986,21.249,21.249,31.986,8,32\n                            c-4.418,0-8,3.582-8,8s3.582,8,8,8c13.249,0.014,23.986,10.751,24,24c0,4.418,3.582,8,8,8s8-3.582,8-8\n                            c0.014-13.249,10.751-23.986,24-24c4.418,0,8-3.582,8-8S76.418,32,72,32z M40,48.023c-2.283-3.039-4.984-5.74-8.023-8.023\n                            c3.039-2.283,5.74-4.984,8.023-8.023c2.283,3.039,4.984,5.74,8.023,8.023C44.984,42.283,42.283,44.984,40,48.023z"
-                  }
-                })
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _vm._m(0),
-        _vm._v(" "),
-        _vm._m(1),
-        _vm._v(" "),
-        _c("input", {
-          attrs: { id: "submit-button", type: "submit", value: "Log in" }
-        })
-      ])
-    ])
+    _vm._m(0)
   ])
 }
 var staticRenderFns = [
@@ -2323,20 +2102,35 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("span", { attrs: { id: "email-input" } }, [
-      _vm._v("\n                Email: "),
-      _c("input", {
-        attrs: { type: "email", name: "email", placeholder: "example@mail.com" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("span", { attrs: { id: "password-input" } }, [
-      _vm._v("\n                Password: "),
-      _c("input", { attrs: { type: "password", name: "password" } })
+    return _c("div", { attrs: { id: "login" } }, [
+      _c("form", { attrs: { id: "login-form" } }, [
+        _c("img", {
+          attrs: {
+            id: "login-svg",
+            src: __webpack_require__(/*! ../../../../../storage/app/public/images/famous.svg */ "./storage/app/public/images/famous.svg")
+          }
+        }),
+        _vm._v(" "),
+        _c("span", { attrs: { id: "email-input" } }, [
+          _vm._v("\n                Email: "),
+          _c("input", {
+            attrs: {
+              type: "email",
+              name: "email",
+              placeholder: "example@mail.com"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("span", { attrs: { id: "password-input" } }, [
+          _vm._v("\n                Password: "),
+          _c("input", { attrs: { type: "password", name: "password" } })
+        ]),
+        _vm._v(" "),
+        _c("input", {
+          attrs: { id: "submit-button", type: "submit", value: "Log in" }
+        })
+      ])
     ])
   }
 ]
@@ -18325,6 +18119,17 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./storage/app/public/images/famous.svg":
+/*!**********************************************!*\
+  !*** ./storage/app/public/images/famous.svg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/famous.svg?320c6d76ea6a2922217a13817b806815";
 
 /***/ }),
 
