@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%;">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     </head>
 
     <body style="margin: 0; font-family: 'Quicksand', sans-serif; height: 100%; padding: 0;">
-        <div id="app">
+        <div id="app" style="height: 100%;">
             <app></app>
         </div>
 

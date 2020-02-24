@@ -41,6 +41,7 @@
         position: absolute;
         left: 0;
         margin-top: -15px;
+        box-shadow: 0 3px 5px -2px #0000007a;
     }
 
     p {

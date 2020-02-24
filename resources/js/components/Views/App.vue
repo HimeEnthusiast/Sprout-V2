@@ -1,17 +1,27 @@
-<template>
-    <div id="background">
-        <Navbar></Navbar>
+<template style="height: 100%;">
+    <div id="whole">
+        <div id="nav">
+            <Navbar></Navbar>
+        </div>
 
-        <div class="container">
+        <div id="container">
             <router-view></router-view>
         </div>
     </div>
 </template>
 
 <style scoped>
-    .container {
-        height: 100%;
-    }
+     #whole {
+         height: 100%;
+     }
+
+     #nav {
+         height: 11%;
+     }
+
+     #container {
+         height: 89%;
+     }
 </style>
 
 <script>
