@@ -226,14 +226,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Login"
 });
@@ -249,6 +241,12 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -683,6 +681,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Navbar",
@@ -705,7 +712,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\nspan[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    padding-bottom: 4%;\n}\ninput[data-v-3e632c0e] {\n    margin-bottom: 2%;\n    margin-top: 1%;\n    padding: 2%;\n    width: 40vh;\n    border-radius: 5px;\n    font-family: 'Raleway', sans-serif;\n    border: 1px solid rgb(206, 206, 206);\n}\n#root[data-v-3e632c0e] {\n    font-family: 'Quicksand', sans-serif;\n    height: 100%;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n}\n#banner-title[data-v-3e632c0e] {\n    padding: 30px;\n    margin: 2% 0 0 0;\n    font-size: 50px;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#banner-blurb[data-v-3e632c0e] {\n    padding: 0 30px 30px 30px;\n    margin: 0;\n    font-size: 20px;\n    color: #ffffff;\n    font-family: 'Raleway', sans-serif;\n}\n#banner[data-v-3e632c0e] {\n    background-color: #00A896;\n    height: 100%;\n    width: 30%;\n    min-width: 300px;\n    z-index: -100;\n    overflow: hidden;\n    position: relative;\n}\n#sprout-svg[data-v-3e632c0e] {\n    fill: white;\n    width: 60%;\n    display: block;\n    margin: auto;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    top: 0;\n    right: 0;\n    margin-bottom: -20px;\n}\n#login-svg[data-v-3e632c0e] {\n    width: 20%;\n    display: block;\n    margin: 15% auto 10% auto;\n}\n#login[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    float: right;\n    margin-top: 5%;\n    -webkit-box-pack: center;\n            justify-content: center;\n    width: 70%;\n}\n#login-form[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    color: #00A896;\n    font-size: 20px;\n}\n#submit-button[data-v-3e632c0e] {\n    padding: 10px;\n    align-self: center;\n    width: 12vw;\n    font-size: 20px;\n    background-color: #00A896;\n    border: none;\n    font-family: 'Quicksand', sans-serif;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#newsletter-input[data-v-3e632c0e] {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n    font-size: 20px;\n}\n#checkbox[data-v-3e632c0e] {\n    width: 0;\n    margin-right: 5px;\n    vertical-align: middle; /* Not working? */\n}\n", ""]);
+exports.push([module.i, "\ninput[data-v-3e632c0e] {\n    margin-bottom: 2%;\n    margin-top: 1%;\n    padding: 2%;\n    width: 40vh;\n    border-radius: 5px;\n    font-family: 'Raleway', sans-serif;\n    border: 1px solid rgb(206, 206, 206);\n}\n.input-title[data-v-3e632c0e] {\n    margin: 3% 0 0 0;\n}\n#root[data-v-3e632c0e] {\n    font-family: 'Quicksand', sans-serif;\n    height: 100%;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n}\n#banner-title[data-v-3e632c0e] {\n    padding: 30px;\n    margin: 2% 0 0 0;\n    font-size: 50px;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#banner-blurb[data-v-3e632c0e] {\n    padding: 0 30px 30px 30px;\n    margin: 0;\n    font-size: 20px;\n    color: #ffffff;\n    font-family: 'Raleway', sans-serif;\n}\n#banner[data-v-3e632c0e] {\n    background-color: #00A896;\n    height: 100%;\n    width: 30%;\n    min-width: 300px;\n    z-index: -100;\n    overflow: hidden;\n    position: relative;\n}\n#sprout-svg[data-v-3e632c0e] {\n    fill: white;\n    width: 60%;\n    display: block;\n    margin: auto;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    top: 0;\n    right: 0;\n    margin-bottom: -20px;\n}\n#login-svg[data-v-3e632c0e] {\n    width: 20%;\n    display: block;\n    margin: 15% auto 10% auto;\n}\n#login[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    float: right;\n    margin-top: 5%;\n    -webkit-box-pack: center;\n            justify-content: center;\n    width: 70%;\n}\n#login-form[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    color: #00A896;\n    font-size: 20px;\n}\n#submit-button[data-v-3e632c0e] {\n    padding: 10px;\n    align-self: center;\n    width: 12vw;\n    font-size: 20px;\n    background-color: #00A896;\n    border: none;\n    font-family: 'Quicksand', sans-serif;\n    font-weight: bolder;\n    color: #ffffff;\n    margin-top: 5%;\n}\n#submit-button[data-v-3e632c0e]:hover {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05);\n    box-shadow: 0 2px 2px #0000007a;\n    -webkit-transition: 0.3s;\n    transition: 0.3s;\n}\n", ""]);
 
 // exports
 
@@ -724,7 +731,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\nspan[data-v-9a217f7a] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    padding-bottom: 4%;\n}\ninput[data-v-9a217f7a] {\n    margin-bottom: 2%;\n    margin-top: 1%;\n    padding: 2%;\n    width: 40vh;\n    border-radius: 5px;\n    font-family: 'Raleway', sans-serif;\n    border: 1px solid rgb(206, 206, 206);\n}\n#root[data-v-9a217f7a] {\n    font-family: 'Quicksand', sans-serif;\n    height: 100%;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n}\n#banner-title[data-v-9a217f7a] {\n    padding: 30px;\n    margin: 2% 0 0 0;\n    font-size: 50px;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#banner-blurb[data-v-9a217f7a] {\n    padding: 0 30px 30px 30px;\n    margin: 0;\n    font-size: 20px;\n    color: #ffffff;\n    font-family: 'Raleway', sans-serif;\n}\n#banner[data-v-9a217f7a] {\n    background-color: #00A896;\n    height: 100%;\n    width: 30%;\n    min-width: 300px;\n    z-index: -100;\n    overflow: hidden;\n    position: relative;\n}\n#sprout-svg[data-v-9a217f7a] {\n    fill: white;\n    width: 60%;\n    display: block;\n    margin: auto;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    top: 0;\n    right: 0;\n    margin-bottom: -20px;\n}\n#registration[data-v-9a217f7a] {\n    display: -webkit-box;\n    display: flex;\n    float: right;\n    margin-top: 5%;\n    -webkit-box-pack: center;\n            justify-content: center;\n    width: 70%;\n}\n#reg-form[data-v-9a217f7a] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    color: #00A896;\n    font-size: 20px;\n}\n#submit-button[data-v-9a217f7a] {\n    padding: 10px;\n    align-self: center;\n    width: 12vw;\n    font-size: 20px;\n    background-color: #00A896;\n    border: none;\n    font-family: 'Quicksand', sans-serif;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#newsletter-input[data-v-9a217f7a] {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n    font-size: 20px;\n}\n#checkbox[data-v-9a217f7a] {\n    width: 0;\n    margin-right: 5px;\n    vertical-align: middle; /* Not working? */\n}\n", ""]);
+exports.push([module.i, "\ninput[data-v-9a217f7a] {\n    margin-bottom: 2%;\n    margin-top: 1%;\n    padding: 2%;\n    width: 40vh;\n    border-radius: 5px;\n    font-family: 'Raleway', sans-serif;\n    border: 1px solid rgb(206, 206, 206);\n}\n.input-title[data-v-9a217f7a] {\n    margin: 3% 0 0 0;\n}\n#root[data-v-9a217f7a] {\n    font-family: 'Quicksand', sans-serif;\n    height: 100%;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n}\n#banner-title[data-v-9a217f7a] {\n    padding: 30px;\n    margin: 2% 0 0 0;\n    font-size: 50px;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#banner-blurb[data-v-9a217f7a] {\n    padding: 0 30px 30px 30px;\n    margin: 0;\n    font-size: 20px;\n    color: #ffffff;\n    font-family: 'Raleway', sans-serif;\n}\n#banner[data-v-9a217f7a] {\n    background-color: #00A896;\n    height: 100%;\n    width: 30%;\n    min-width: 300px;\n    z-index: -100;\n    overflow: hidden;\n    position: relative;\n}\n#sprout-svg[data-v-9a217f7a] {\n    fill: white;\n    width: 60%;\n    display: block;\n    margin: auto;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    top: 0;\n    right: 0;\n    margin-bottom: -20px;\n}\n#registration[data-v-9a217f7a] {\n    display: -webkit-box;\n    display: flex;\n    float: right;\n    -webkit-box-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n            align-items: center;\n    width: 70%;\n}\n#reg-form[data-v-9a217f7a] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    color: #00A896;\n    font-size: 20px;\n}\n#submit-button[data-v-9a217f7a] {\n    padding: 10px;\n    align-self: center;\n    width: 12vw;\n    font-size: 20px;\n    background-color: #00A896;\n    border: none;\n    font-family: 'Quicksand', sans-serif;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#submit-button[data-v-9a217f7a]:hover {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05);\n    box-shadow: 0 2px 2px #0000007a;\n    -webkit-transition: 0.3s;\n    transition: 0.3s;\n}\n#newsletter-input[data-v-9a217f7a] {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n    font-size: 19px;\n    padding: 4% 0 4% 0;\n    text-align: center;\n}\n#checkbox[data-v-9a217f7a] {\n    width: 0;\n}\n", ""]);
 
 // exports
 
@@ -781,7 +788,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\n#root[data-v-0d6a60e2] {\n    font-family: 'Quicksand', sans-serif;\n}\n#title[data-v-0d6a60e2] {\n    height: 100%;\n    padding: 23px 30px 15px 30px;\n    color: #00A896;\n    font-weight: bold;\n    text-align: center;\n    margin-top: -12px;\n    font-size: 20px;\n}\n#dropdown[data-v-0d6a60e2] {\n    display: none;\n    background-color: #FFFFFF;\n    color: #00A896;\n    width: 100%;\n    position: absolute;\n    left: 0;\n    margin-top: -15px;\n    box-shadow: 0 3px 5px -2px #0000007a;\n}\np[data-v-0d6a60e2] {\n    padding: 11px;\n    margin: 0;\n}\np[data-v-0d6a60e2]:hover {\n    background-color: #F2F2F2;\n}\n", ""]);
+exports.push([module.i, "\n#root[data-v-0d6a60e2] {\n    font-family: 'Quicksand', sans-serif;\n}\n#title[data-v-0d6a60e2] {\n    height: 100%;\n    padding: 23px 30px 15px 30px;\n    color: #00A896;\n    font-weight: bold;\n    text-align: center;\n    margin-top: -12px;\n    font-size: 20px;\n}\n#dropdown[data-v-0d6a60e2] {\n    display: none;\n    background-color: #FFFFFF;\n    color: #00A896;\n    width: 100%;\n    position: absolute;\n    left: 0;\n    margin-top: -15px;\n    box-shadow: 0 3px 5px -3px #0000007a;\n}\np[data-v-0d6a60e2] {\n    padding: 11px;\n    margin: 0;\n}\np[data-v-0d6a60e2]:hover {\n    background-color: #F2F2F2;\n}\n", ""]);
 
 // exports
 
@@ -800,7 +807,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\n#root[data-v-7283b18e] {\n    font-family: 'Quicksand', sans-serif;\n}\n.router-link[data-v-7283b18e] {\n    text-decoration: none;\n    color: #ffffff;\n}\n#top-container[data-v-7283b18e] {\n    background-color: #00A896;\n    padding: 6px;\n    vertical-align: middle;\n    text-align: end;\n    position: relative;\n    box-shadow: 0 1px 5px #0000004a;\n}\n#bottom-container[data-v-7283b18e] {\n    background-color: #B2EDE0;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    padding: 10px;\n    box-shadow: 0 3px 5px #0000007a;\n}\nimg[data-v-7283b18e] {\n    width: 150px;\n    margin-left: 10px;\n    cursor: pointer;\n}\n#categories[data-v-7283b18e] {\n    display: -webkit-box;\n    display: flex;\n    margin-left: 5%;\n}\n#icons[data-v-7283b18e] {\n    margin: 0 0 0 auto;\n}\nsvg[data-v-7283b18e] {\n    width: 30px;\n    padding: 10px;\n}\n#register[data-v-7283b18e], #login[data-v-7283b18e] {\n    margin-right: 20px;\n}\n", ""]);
+exports.push([module.i, "\n#root[data-v-7283b18e] {\n    font-family: 'Quicksand', sans-serif;\n}\n.router-link[data-v-7283b18e] {\n    text-decoration: none;\n    color: #ffffff;\n}\n#top-container[data-v-7283b18e] {\n    background-color: #00A896;\n    padding: 6px;\n    vertical-align: middle;\n    text-align: end;\n    position: relative;\n    box-shadow: 0 1px 5px #0000004a;\n}\n#bottom-container[data-v-7283b18e] {\n    background-color: #B2EDE0;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    padding: 10px;\n    box-shadow: 0 3px 5px #0000007a;\n}\nimg[data-v-7283b18e] {\n    width: 150px;\n    margin-left: 10px;\n    cursor: pointer;\n}\n#categories[data-v-7283b18e] {\n    display: -webkit-box;\n    display: flex;\n    margin-left: 5%;\n}\n#icons[data-v-7283b18e] {\n    margin: 0 0 0 auto;\n}\nsvg[data-v-7283b18e] {\n    width: 30px;\n    padding: 10px;\n}\n#search-svg[data-v-7283b18e], #cart-svg[data-v-7283b18e] {\n    fill: #00A896;\n}\n#search-svg[data-v-7283b18e]:hover, #cart-svg[data-v-7283b18e]:hover {\n    fill: #ffffff;\n    /* transition: 0.1s; */\n}\n#register[data-v-7283b18e], #login[data-v-7283b18e] {\n    margin-right: 20px;\n}\n", ""]);
 
 // exports
 
@@ -2111,21 +2118,19 @@ var staticRenderFns = [
           }
         }),
         _vm._v(" "),
-        _c("span", { attrs: { id: "email-input" } }, [
-          _vm._v("\n                Email: "),
-          _c("input", {
-            attrs: {
-              type: "email",
-              name: "email",
-              placeholder: "example@mail.com"
-            }
-          })
-        ]),
+        _c("p", { staticClass: "input-title" }, [_vm._v("Email:")]),
         _vm._v(" "),
-        _c("span", { attrs: { id: "password-input" } }, [
-          _vm._v("\n                Password: "),
-          _c("input", { attrs: { type: "password", name: "password" } })
-        ]),
+        _c("input", {
+          attrs: {
+            type: "email",
+            name: "email",
+            placeholder: "example@mail.com"
+          }
+        }),
+        _vm._v(" "),
+        _c("p", { staticClass: "input-title" }, [_vm._v("Password:")]),
+        _vm._v(" "),
+        _c("input", { attrs: { type: "password", name: "password" } }),
         _vm._v(" "),
         _c("input", {
           attrs: { id: "submit-button", type: "submit", value: "Log in" }
@@ -2197,32 +2202,33 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { attrs: { id: "registration" } }, [
       _c("form", { attrs: { id: "reg-form" } }, [
-        _c("span", { attrs: { id: "name-input" } }, [
-          _vm._v("\n                Name: "),
-          _c("input", {
-            attrs: { type: "text", name: "name", placeholder: "Jane Doe" }
-          })
-        ]),
+        _c("p", { staticClass: "input-title" }, [_vm._v("Name:")]),
         _vm._v(" "),
-        _c("span", { attrs: { id: "email-input" } }, [
-          _vm._v("\n                Email: "),
-          _c("input", {
-            attrs: {
-              type: "email",
-              name: "email",
-              placeholder: "example@mail.com"
-            }
-          }),
-          _vm._v("\n                Confirm Email: "),
-          _c("input", { attrs: { type: "email", name: "confirm-name" } })
-        ]),
+        _c("input", {
+          attrs: { type: "text", name: "name", placeholder: "Jane Doe" }
+        }),
         _vm._v(" "),
-        _c("span", { attrs: { id: "password-input" } }, [
-          _vm._v("\n                Password: "),
-          _c("input", { attrs: { type: "password", name: "password" } }),
-          _vm._v("\n                Confirm Password: "),
-          _c("input", { attrs: { type: "password", name: "confirm-password" } })
-        ]),
+        _c("p", { staticClass: "input-title" }, [_vm._v("Email:")]),
+        _vm._v(" "),
+        _c("input", {
+          attrs: {
+            type: "email",
+            name: "email",
+            placeholder: "example@mail.com"
+          }
+        }),
+        _vm._v(" "),
+        _c("p", { staticClass: "input-title" }, [_vm._v("Confirm Email:")]),
+        _vm._v(" "),
+        _c("input", { attrs: { type: "email", name: "confirm-name" } }),
+        _vm._v(" "),
+        _c("p", { staticClass: "input-title" }, [_vm._v("Password:")]),
+        _vm._v(" "),
+        _c("input", { attrs: { type: "password", name: "password" } }),
+        _vm._v(" "),
+        _c("p", { staticClass: "input-title" }, [_vm._v("Confirm Password:")]),
+        _vm._v(" "),
+        _c("input", { attrs: { type: "password", name: "confirm-password" } }),
         _vm._v(" "),
         _c("span", { attrs: { id: "newsletter-input" } }, [
           _c("input", {
@@ -2425,6 +2431,7 @@ var render = function() {
             {
               staticClass: "svg-inline--fa fa-search fa-w-16",
               attrs: {
+                id: "search-svg",
                 "aria-hidden": "true",
                 focusable: "false",
                 "data-prefix": "fas",
@@ -2437,7 +2444,6 @@ var render = function() {
             [
               _c("path", {
                 attrs: {
-                  fill: "#00A896",
                   d:
                     "M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
                 }
@@ -2450,6 +2456,7 @@ var render = function() {
             {
               staticClass: "svg-inline--fa fa-shopping-cart fa-w-18",
               attrs: {
+                id: "cart-svg",
                 "aria-hidden": "true",
                 focusable: "false",
                 "data-prefix": "fas",
@@ -2462,7 +2469,6 @@ var render = function() {
             [
               _c("path", {
                 attrs: {
-                  fill: "#00A896",
                   d:
                     "M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
                 }

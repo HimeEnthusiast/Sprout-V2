@@ -13,13 +13,11 @@
             <form id="login-form">
                 <img id="login-svg" src="../../../../../storage/app/public/images/famous.svg">
 
-                <span id="email-input">
-                    Email: <input type="email" name="email" placeholder="example@mail.com" />
-                </span>
+                <p class="input-title">Email:</p>
+                <input type="email" name="email" placeholder="example@mail.com" />
 
-                <span id="password-input">
-                    Password: <input type="password" name="password" />
-                </span>
+                <p class="input-title">Password:</p>
+                <input type="password" name="password" />
 
                 <input id="submit-button" type="submit" value="Log in" />
             </form>
@@ -30,12 +28,6 @@
 <style scoped>
     @import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap');
 
-    span {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 4%;
-    }
-
     input {
         margin-bottom: 2%;
         margin-top: 1%;
@@ -44,6 +36,10 @@
         border-radius: 5px;
         font-family: 'Raleway', sans-serif;
         border: 1px solid rgb(206, 206, 206);
+    }
+
+    .input-title {
+        margin: 3% 0 0 0;
     }
 
     #root {
@@ -123,17 +119,13 @@
         font-family: 'Quicksand', sans-serif;
         font-weight: bolder;
         color: #ffffff;
+        margin-top: 5%;
     }
 
-    #newsletter-input {
-        flex-direction: row;
-        font-size: 20px;
-    }
-
-    #checkbox {
-        width: 0;
-        margin-right: 5px;
-        vertical-align: middle; /* Not working? */
+    #submit-button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 2px 2px #0000007a;
+        transition: 0.3s;
     }
 </style>
 
