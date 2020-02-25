@@ -25,7 +25,7 @@
 </style>
 
 <script>
-    import Navbar from './HomeComponents/Navbar'
+    import Navbar from './GlobalComponents/Navbar'
 
     export default {
         name: 'App',

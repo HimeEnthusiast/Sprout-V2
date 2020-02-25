@@ -5,7 +5,7 @@ Vue.use(VueRouter)
 
 //Vue
 import App from './components/Views/App'
-import Home from './components/Components/Home'
+import Home from './components/Components/Home/Home'
 import Register from './components/Components/Account/Register'
 import Login from './components/Components/Account/Login'
 
