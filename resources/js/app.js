@@ -8,6 +8,7 @@ import App from './components/Views/App'
 import Home from './components/Components/Home/Home'
 import Register from './components/Components/Account/Register'
 import Login from './components/Components/Account/Login'
+import Store from './components/Components/Store/Store'
 
 //Router
 const router = new VueRouter({
@@ -27,6 +28,11 @@ const router = new VueRouter({
             path: '/login',
             name: 'login',
             component: Login
+        },
+        {
+            path: '/store',
+            name: 'store',
+            component: Store
         }
     ]
 })
@@ -34,10 +40,5 @@ const router = new VueRouter({
 const app = new Vue ({
     el: '#app',
     components: { App },
-    router,
-    methods: {
-        drop() {
-            document.getElementById(dropdown).style.display = "block";
-        }
-    }
+    router
 });

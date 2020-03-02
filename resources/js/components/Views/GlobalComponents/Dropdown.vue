@@ -2,7 +2,7 @@
     <div class="root">
         <!-- TODO: Pass through category name and router link -->
         <div id="title" ref="title" @mouseover="drop" @mouseleave="close"> 
-            {{title}}
+            <router-link class="router-link" :to="{name: 'store'}">{{title}}</router-link>
         </div>
 
         <!-- TODO: Loop and pass through categories and router links -->
@@ -51,6 +51,11 @@
 
     p:hover {
         background-color: #F2F2F2;
+    }
+
+    .router-link {
+        text-decoration: none;
+        color: #00A896;
     }
 </style>
 

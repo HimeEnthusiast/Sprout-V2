@@ -13,6 +13,7 @@
 <style scoped>
      #whole {
          height: 100%;
+         overflow-x: hidden;
      }
 
      #nav {

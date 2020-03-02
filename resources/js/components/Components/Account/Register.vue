@@ -36,7 +36,7 @@
 </template>
 
 <style scoped>
-    @import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Quicksand:700|Raleway&display=swap');
 
     input {
         margin-bottom: 2%;
