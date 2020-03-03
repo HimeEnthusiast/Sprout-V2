@@ -15,9 +15,9 @@
 
       <span id="categories">
         <Dropdown title="Seeds"></Dropdown>
-        <Dropdown title="Pots &amp; Planters"></Dropdown>
+        <Dropdown title="Planters"></Dropdown>
         <Dropdown title="Tools"></Dropdown>
-        <Dropdown title="Soil &amp; Fertilizer"></Dropdown>
+        <Dropdown title="Soil"></Dropdown>
       </span>
 
       <span id="icons">
@@ -75,31 +75,40 @@
         vertical-align: middle;
         text-align: end;
         position: relative;
+        z-index: 100;
         box-shadow: 0 1px 5px #0000004a;
-        
     }
 
     #bottom-container {
         background-color: #B2EDE0;
         display: flex;
         align-items: center;
-        padding: 10px;
+        /* padding: 10px; */
         box-shadow: 0 3px 5px #0000007a;
     }
 
     img {
-        width: 150px;
+        /* width: 150px; */
+        width: 20%;
+        max-width: 160px;
+        min-width: 120px;
+        margin-right: 5%;
         margin-left: 10px;
         cursor: pointer;
     }
 
     #categories {
         display: flex;
-        margin-left: 5%;
+        /* justify-content: center; */
+        /* margin-left: 5%; */
+        /* margin: auto; */
+        width: 75%;
     }
 
     #icons {
-        margin: 0 0 0 auto;
+        margin-left: auto;
+        width: 20%;
+        text-align: right;
     }
 
     svg {
@@ -113,11 +122,16 @@
 
     #search-svg:hover, #cart-svg:hover {
         fill: #ffffff;
-        /* transition: 0.1s; */
     }
 
     #register, #login {
         margin-right: 20px;
+    }
+
+    @media only screen and (max-width: 767px) {
+        /* #bottom-container {
+            background-color: blue;
+        } */
     }
 </style>
 

@@ -36,8 +36,7 @@
         background-color: #F2F2F2;
         padding: 30px;
         width: 100%;
-        margin-top: 5%;
-        /* position: sticky; */
+        position: relative;
         z-index: -100;
         color: #00A896;
     }

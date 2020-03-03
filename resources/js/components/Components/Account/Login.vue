@@ -89,9 +89,9 @@
     }
 
     #login-svg {
-        width: 20%;
+        width: 30%;
         display: block;
-        margin: 15% auto 10% auto;
+        margin: 10% auto 10% auto;
     }
 
     #login {

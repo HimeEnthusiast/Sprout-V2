@@ -12,16 +12,22 @@
 
 <style scoped>
      #whole {
-         height: 100%;
-         overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        position: absolute;
      }
 
      #nav {
-         height: 11%;
+        top: 0;
+        height: 14%;
+        position: relative;
+        z-index: 1;
      }
 
      #container {
-         height: 89%;
+        position: relative;
+        height: 86%;
      }
 </style>
 

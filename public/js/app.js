@@ -596,7 +596,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Store",
@@ -710,6 +709,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'App',
@@ -729,6 +734,25 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -945,6 +969,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Navbar",
@@ -967,7 +1005,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\ninput[data-v-3e632c0e] {\n    margin-bottom: 2%;\n    margin-top: 1%;\n    padding: 2%;\n    width: 40vh;\n    border-radius: 5px;\n    font-family: 'Raleway', sans-serif;\n    border: 1px solid rgb(206, 206, 206);\n}\n.input-title[data-v-3e632c0e] {\n    margin: 3% 0 0 0;\n}\n#root[data-v-3e632c0e] {\n    font-family: 'Quicksand', sans-serif;\n    height: 100%;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n}\n#banner-title[data-v-3e632c0e] {\n    padding: 30px;\n    margin: 2% 0 0 0;\n    font-size: 50px;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#banner-blurb[data-v-3e632c0e] {\n    padding: 0 30px 30px 30px;\n    margin: 0;\n    font-size: 20px;\n    color: #ffffff;\n    font-family: 'Raleway', sans-serif;\n}\n#banner[data-v-3e632c0e] {\n    background-color: #00A896;\n    height: 100%;\n    width: 30%;\n    min-width: 300px;\n    z-index: -100;\n    overflow: hidden;\n    position: relative;\n}\n#sprout-svg[data-v-3e632c0e] {\n    fill: white;\n    width: 60%;\n    display: block;\n    margin: auto;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    top: 0;\n    right: 0;\n    margin-bottom: -20px;\n}\n#login-svg[data-v-3e632c0e] {\n    width: 20%;\n    display: block;\n    margin: 15% auto 10% auto;\n}\n#login[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    float: right;\n    margin-top: 5%;\n    -webkit-box-pack: center;\n            justify-content: center;\n    width: 70%;\n}\n#login-form[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    color: #00A896;\n    font-size: 20px;\n}\n#submit-button[data-v-3e632c0e] {\n    padding: 10px;\n    align-self: center;\n    width: 12vw;\n    font-size: 20px;\n    background-color: #00A896;\n    border: none;\n    font-family: 'Quicksand', sans-serif;\n    font-weight: bolder;\n    color: #ffffff;\n    margin-top: 5%;\n}\n#submit-button[data-v-3e632c0e]:hover {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05);\n    box-shadow: 0 2px 2px #0000007a;\n    -webkit-transition: 0.3s;\n    transition: 0.3s;\n}\n", ""]);
+exports.push([module.i, "\ninput[data-v-3e632c0e] {\n    margin-bottom: 2%;\n    margin-top: 1%;\n    padding: 2%;\n    width: 40vh;\n    border-radius: 5px;\n    font-family: 'Raleway', sans-serif;\n    border: 1px solid rgb(206, 206, 206);\n}\n.input-title[data-v-3e632c0e] {\n    margin: 3% 0 0 0;\n}\n#root[data-v-3e632c0e] {\n    font-family: 'Quicksand', sans-serif;\n    height: 100%;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n            flex-direction: row;\n}\n#banner-title[data-v-3e632c0e] {\n    padding: 30px;\n    margin: 2% 0 0 0;\n    font-size: 50px;\n    font-weight: bolder;\n    color: #ffffff;\n}\n#banner-blurb[data-v-3e632c0e] {\n    padding: 0 30px 30px 30px;\n    margin: 0;\n    font-size: 20px;\n    color: #ffffff;\n    font-family: 'Raleway', sans-serif;\n}\n#banner[data-v-3e632c0e] {\n    background-color: #00A896;\n    height: 100%;\n    width: 30%;\n    min-width: 300px;\n    z-index: -100;\n    overflow: hidden;\n    position: relative;\n}\n#sprout-svg[data-v-3e632c0e] {\n    fill: white;\n    width: 60%;\n    display: block;\n    margin: auto;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    top: 0;\n    right: 0;\n    margin-bottom: -20px;\n}\n#login-svg[data-v-3e632c0e] {\n    width: 30%;\n    display: block;\n    margin: 10% auto 10% auto;\n}\n#login[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    float: right;\n    margin-top: 5%;\n    -webkit-box-pack: center;\n            justify-content: center;\n    width: 70%;\n}\n#login-form[data-v-3e632c0e] {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    color: #00A896;\n    font-size: 20px;\n}\n#submit-button[data-v-3e632c0e] {\n    padding: 10px;\n    align-self: center;\n    width: 12vw;\n    font-size: 20px;\n    background-color: #00A896;\n    border: none;\n    font-family: 'Quicksand', sans-serif;\n    font-weight: bolder;\n    color: #ffffff;\n    margin-top: 5%;\n}\n#submit-button[data-v-3e632c0e]:hover {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05);\n    box-shadow: 0 2px 2px #0000007a;\n    -webkit-transition: 0.3s;\n    transition: 0.3s;\n}\n", ""]);
 
 // exports
 
@@ -1043,7 +1081,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n#root[data-v-0193cba5] {\n}\n#bottom[data-v-0193cba5] {\n    margin-top: 3%;\n}\n#top-bar[data-v-0193cba5] {\n    background-color: #F2F2F2;\n    padding: 30px;\n    width: 100%;\n    margin-top: 5%;\n    /* position: sticky; */\n    z-index: -100;\n    color: #00A896;\n}\n#sidebar[data-v-0193cba5] {\n    float: left;\n    width: 20%;\n    padding: 15px;\n    margin-left: 2%;\n}\n#product-type[data-v-0193cba5] {\n    width: 100%;\n    max-width: 250px;\n    height: 300px;\n    background-color: pink;\n}\n#product-range[data-v-0193cba5] {\n    margin-top: 20px;\n    width: 200px;\n    height: 100px;\n    background-color: pink;\n}\n#product-grid[data-v-0193cba5] {\n    width: 70%;\n    float: right;\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(200px, 250px));\n    grid-row-gap: 25px;\n}\n", ""]);
+exports.push([module.i, "\n#root[data-v-0193cba5] {\n}\n#bottom[data-v-0193cba5] {\n    margin-top: 3%;\n}\n#top-bar[data-v-0193cba5] {\n    background-color: #F2F2F2;\n    padding: 30px;\n    width: 100%;\n    position: relative;\n    z-index: -100;\n    color: #00A896;\n}\n#sidebar[data-v-0193cba5] {\n    float: left;\n    width: 20%;\n    padding: 15px;\n    margin-left: 2%;\n}\n#product-type[data-v-0193cba5] {\n    width: 100%;\n    max-width: 250px;\n    height: 300px;\n    background-color: pink;\n}\n#product-range[data-v-0193cba5] {\n    margin-top: 20px;\n    width: 200px;\n    height: 100px;\n    background-color: pink;\n}\n#product-grid[data-v-0193cba5] {\n    width: 70%;\n    float: right;\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(200px, 250px));\n    grid-row-gap: 25px;\n}\n", ""]);
 
 // exports
 
@@ -1081,7 +1119,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n#whole[data-v-7355cd05] {\n    height: 100%;\n    overflow-x: hidden;\n}\n#nav[data-v-7355cd05] {\n    height: 11%;\n}\n#container[data-v-7355cd05] {\n    height: 89%;\n}\n", ""]);
+exports.push([module.i, "\n#whole[data-v-7355cd05] {\n   height: 100%;\n   width: 100%;\n   overflow-x: hidden;\n   position: absolute;\n}\n#nav[data-v-7355cd05] {\n   top: 0;\n   height: 14%;\n   position: relative;\n   z-index: 1;\n}\n#container[data-v-7355cd05] {\n   position: relative;\n   height: 86%;\n}\n", ""]);
 
 // exports
 
@@ -1100,7 +1138,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\n#root[data-v-2f9e3d6a] {\n    font-family: 'Quicksand', sans-serif;\n}\n#title[data-v-2f9e3d6a] {\n    height: 100%;\n    padding: 23px 30px 15px 30px;\n    color: #00A896;\n    font-weight: bold;\n    text-align: center;\n    margin-top: -12px;\n    font-size: 20px;\n}\n#dropdown[data-v-2f9e3d6a] {\n    display: none;\n    background-color: #FFFFFF;\n    color: #00A896;\n    width: 100%;\n    position: absolute;\n    left: 0;\n    margin-top: -15px;\n    box-shadow: 0 3px 5px -3px #0000007a;\n}\np[data-v-2f9e3d6a] {\n    padding: 11px;\n    margin: 0;\n}\np[data-v-2f9e3d6a]:hover {\n    background-color: #F2F2F2;\n}\n.router-link[data-v-2f9e3d6a] {\n    text-decoration: none;\n    color: #00A896;\n}\n", ""]);
+exports.push([module.i, "\n#root[data-v-2f9e3d6a] {\n        font-family: 'Quicksand', sans-serif;\n        height: 100%;\n        /* width: 25%; */\n}\n#title[data-v-2f9e3d6a] {\n        height: 100%;\n        /* padding: 23px 30px 15px 30px; */\n        padding: 1.1em 1em 1.1em 1em;\n        display: -webkit-box;\n        display: flex;\n        -webkit-box-align: center;\n                align-items: center;\n        /* position: relative; */\n        /* display: table-cell; */\n        /* vertical-align: middle; */\n        position: -webkit-sticky;\n        position: sticky;\n        color: #00A896;\n        font-weight: bold;\n        text-align: center;\n        /* margin-top: -12px; */\n        font-size: 20px;\n}\n#dropdown[data-v-2f9e3d6a] {\n        display: none;\n        background-color: #FFFFFF;\n        color: #00A896;\n        width: 100%;\n        position: absolute;\n        left: 0;\n        /* margin-top: -15px; */\n        box-shadow: 0 3px 5px -3px #0000007a;\n}\np[data-v-2f9e3d6a] {\n        padding: 11px;\n        margin: 0;\n}\np[data-v-2f9e3d6a]:hover {\n        background-color: #F2F2F2;\n}\n.router-link[data-v-2f9e3d6a] {\n        text-decoration: none;\n        color: #00A896;\n}\n/* \n    @media only screen and (max-width: 990px) {\n\n        #title {\n            padding: 0 20% 0 20%;\n            margin: auto;\n            width: 100%;\n        }\n    } */\n\n", ""]);
 
 // exports
 
@@ -1119,7 +1157,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\n#root[data-v-61fb024a] {\n    font-family: 'Quicksand', sans-serif;\n}\n.router-link[data-v-61fb024a] {\n    text-decoration: none;\n    color: #ffffff;\n}\n#top-container[data-v-61fb024a] {\n    background-color: #00A896;\n    padding: 6px;\n    vertical-align: middle;\n    text-align: end;\n    position: relative;\n    box-shadow: 0 1px 5px #0000004a;\n}\n#bottom-container[data-v-61fb024a] {\n    background-color: #B2EDE0;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    padding: 10px;\n    box-shadow: 0 3px 5px #0000007a;\n}\nimg[data-v-61fb024a] {\n    width: 150px;\n    margin-left: 10px;\n    cursor: pointer;\n}\n#categories[data-v-61fb024a] {\n    display: -webkit-box;\n    display: flex;\n    margin-left: 5%;\n}\n#icons[data-v-61fb024a] {\n    margin: 0 0 0 auto;\n}\nsvg[data-v-61fb024a] {\n    width: 30px;\n    padding: 10px;\n}\n#search-svg[data-v-61fb024a], #cart-svg[data-v-61fb024a] {\n    fill: #00A896;\n}\n#search-svg[data-v-61fb024a]:hover, #cart-svg[data-v-61fb024a]:hover {\n    fill: #ffffff;\n    /* transition: 0.1s; */\n}\n#register[data-v-61fb024a], #login[data-v-61fb024a] {\n    margin-right: 20px;\n}\n", ""]);
+exports.push([module.i, "\n#root[data-v-61fb024a] {\n    font-family: 'Quicksand', sans-serif;\n}\n.router-link[data-v-61fb024a] {\n    text-decoration: none;\n    color: #ffffff;\n}\n#top-container[data-v-61fb024a] {\n    background-color: #00A896;\n    padding: 6px;\n    vertical-align: middle;\n    text-align: end;\n    position: relative;\n    z-index: 100;\n    box-shadow: 0 1px 5px #0000004a;\n}\n#bottom-container[data-v-61fb024a] {\n    background-color: #B2EDE0;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    /* padding: 10px; */\n    box-shadow: 0 3px 5px #0000007a;\n}\nimg[data-v-61fb024a] {\n    /* width: 150px; */\n    width: 20%;\n    max-width: 160px;\n    min-width: 120px;\n    margin-right: 5%;\n    margin-left: 10px;\n    cursor: pointer;\n}\n#categories[data-v-61fb024a] {\n    display: -webkit-box;\n    display: flex;\n    /* justify-content: center; */\n    /* margin-left: 5%; */\n    /* margin: auto; */\n    width: 75%;\n}\n#icons[data-v-61fb024a] {\n    margin-left: auto;\n    width: 20%;\n    text-align: right;\n}\nsvg[data-v-61fb024a] {\n    width: 30px;\n    padding: 10px;\n}\n#search-svg[data-v-61fb024a], #cart-svg[data-v-61fb024a] {\n    fill: #00A896;\n}\n#search-svg[data-v-61fb024a]:hover, #cart-svg[data-v-61fb024a]:hover {\n    fill: #ffffff;\n}\n#register[data-v-61fb024a], #login[data-v-61fb024a] {\n    margin-right: 20px;\n}\n@media only screen and (max-width: 767px) {\n    /* #bottom-container {\n        background-color: blue;\n    } */\n}\n", ""]);
 
 // exports
 
@@ -2873,7 +2911,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "root" }, [
+  return _c("div", { attrs: { id: "root" } }, [
     _c(
       "div",
       {
@@ -2979,11 +3017,11 @@ var render = function() {
           [
             _c("Dropdown", { attrs: { title: "Seeds" } }),
             _vm._v(" "),
-            _c("Dropdown", { attrs: { title: "Pots & Planters" } }),
+            _c("Dropdown", { attrs: { title: "Planters" } }),
             _vm._v(" "),
             _c("Dropdown", { attrs: { title: "Tools" } }),
             _vm._v(" "),
-            _c("Dropdown", { attrs: { title: "Soil & Fertilizer" } })
+            _c("Dropdown", { attrs: { title: "Soil" } })
           ],
           1
         ),
