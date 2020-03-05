@@ -83,15 +83,11 @@
         background-color: #B2EDE0;
         display: flex;
         align-items: center;
-        /* padding: 10px; */
         box-shadow: 0 3px 5px #0000007a;
     }
 
     img {
-        /* width: 150px; */
-        width: 20%;
-        max-width: 160px;
-        min-width: 120px;
+        width: 150px;
         margin-right: 5%;
         margin-left: 10px;
         cursor: pointer;
@@ -99,9 +95,6 @@
 
     #categories {
         display: flex;
-        /* justify-content: center; */
-        /* margin-left: 5%; */
-        /* margin: auto; */
         width: 75%;
     }
 

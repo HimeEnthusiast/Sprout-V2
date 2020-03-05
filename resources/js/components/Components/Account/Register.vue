@@ -9,24 +9,24 @@
             </svg>
         </div>
         <div id="registration">
-            <form id="reg-form">
+            <form id="reg-form" autocomplete="off" @submit.prevent="login" method="post">
                 <p class="input-title">Name:</p>
-                <input type="text" name="name" placeholder="Jane Doe" />
+                <input type="text" v-model="name" placeholder="Jane Doe" required/>
 
                 <p class="input-title">Email:</p>
-                <input type="email" name="email" placeholder="example@mail.com" />
+                <input type="email" v-model="email" placeholder="example@mail.com" required/>
 
                 <p class="input-title">Confirm Email:</p>
-                <input type="email" name="confirm-name" />
+                <input type="email" name="confirm-name" required/>
 
                 <p class="input-title">Password:</p>
-                <input type="password" name="password" />
+                <input type="password" v-model="password" required/>
 
                 <p class="input-title">Confirm Password:</p>
-                <input type="password" name="confirm-password" />
+                <input type="password" name="confirm-password" required/>
 
                 <span id="newsletter-input">
-                    <input id="checkbox" type="checkbox" name="newsletter" /> Would you like to join our newsletter?
+                    <input id="checkbox" type="checkbox" v-model="newsletter" /> Would you like to join our newsletter?
                 </span>
 
                 <input id="submit-button" type="submit" value="Register" />
@@ -54,7 +54,7 @@
 
     #root {
         font-family: 'Quicksand', sans-serif;
-        height: 100%;
+        height: calc(100vh - 100.8px);
         display: flex;
         flex-direction: row;
     }
@@ -145,6 +145,11 @@
 
 <script>
     export default {
-        name: "Register"
+        name: "Register",
+        methods: {
+            registerUser() {
+                this.form.post('api/user');
+            }
+        }
     }
 </script>

@@ -20,14 +20,14 @@
 
      #nav {
         top: 0;
-        height: 14%;
+        height: 100.8px;
         position: relative;
         z-index: 1;
      }
 
      #container {
         position: relative;
-        height: 86%;
+        /* height: 90%; */
      }
 </style>
 

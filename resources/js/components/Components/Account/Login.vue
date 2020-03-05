@@ -44,7 +44,7 @@
 
     #root {
         font-family: 'Quicksand', sans-serif;
-        height: 100%;
+        height: calc(100vh - 100.8px);
         display: flex;
         flex-direction: row;
     }

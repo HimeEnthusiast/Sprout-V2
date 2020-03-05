@@ -15,8 +15,8 @@
             </div>
 
             <div id="product-grid">
-                <span v-for="n in 15">
-                    <ProductSmall image="https://i5.walmartimages.ca/images/Enlarge/787/433/6000194787433.jpg" name="Broccoli" description="A pack of 15 seeds." price="$5.00"></ProductSmall>
+                <span v-for="product in products" :key="product.id">
+                    <ProductSmall :image="product.image_url" :name="product.name" :description="product.description" :price="product.price"></ProductSmall>
                 </span>
             </div>
         </div>
@@ -25,11 +25,12 @@
 
 <style scoped>
     #root {
-        
+        /* height: 100%; */
     }
 
     #bottom {
         margin-top: 3%;
+        /* margin-bottom: 30px; */
     }
 
     #top-bar {
@@ -67,20 +68,27 @@
         float: right;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 250px));
+        height: 300px;
         grid-row-gap: 25px;
     }
 </style>
 
 <script>
     import ProductSmall from './StoreComponents/ProductSmall'
+    import axios from 'axios';
 
     export default {
         name: "Store",
         components: {
             ProductSmall
         },
-        data: {
-
+        data() {
+            return {
+                products: []
+            }
+        },
+        mounted() {
+            axios.get('api/product').then(response => (this.products = response.data));
         }
     }
 </script>

@@ -17,6 +17,8 @@ class CreateProductTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('description');
+            $table->string('category');
+            $table->string('sub_category');
             $table->float('price');
             $table->string('image_url');
             $table->timestamps();
