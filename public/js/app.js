@@ -2438,10 +2438,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2457,7 +2453,7 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var _this = this;
 
-    axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('api/product').then(function (response) {
+    axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('api/product/seeds').then(function (response) {
       return _this.products = response.data;
     });
   }
@@ -2573,7 +2569,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'App',
@@ -2593,13 +2588,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -2933,7 +2921,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n#root[data-v-0193cba5] {\n    /* height: 100%; */\n}\n#bottom[data-v-0193cba5] {\n    margin-top: 3%;\n    /* margin-bottom: 30px; */\n}\n#top-bar[data-v-0193cba5] {\n    background-color: #F2F2F2;\n    padding: 30px;\n    width: 100%;\n    position: relative;\n    z-index: -100;\n    color: #00A896;\n}\n#sidebar[data-v-0193cba5] {\n    float: left;\n    width: 20%;\n    padding: 15px;\n    margin-left: 2%;\n}\n#product-type[data-v-0193cba5] {\n    width: 100%;\n    max-width: 250px;\n    height: 300px;\n    background-color: pink;\n}\n#product-range[data-v-0193cba5] {\n    margin-top: 20px;\n    width: 200px;\n    height: 100px;\n    background-color: pink;\n}\n#product-grid[data-v-0193cba5] {\n    width: 70%;\n    float: right;\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(200px, 250px));\n    height: 300px;\n    grid-row-gap: 25px;\n}\n", ""]);
+exports.push([module.i, "\n#bottom[data-v-0193cba5] {\n    margin-top: 3%;\n}\n#top-bar[data-v-0193cba5] {\n    background-color: #F2F2F2;\n    padding: 30px;\n    width: 100%;\n    position: relative;\n    z-index: -100;\n    color: #00A896;\n}\n#sidebar[data-v-0193cba5] {\n    float: left;\n    width: 20%;\n    padding: 15px;\n    margin-left: 2%;\n}\n#product-type[data-v-0193cba5] {\n    width: 100%;\n    max-width: 250px;\n    height: 300px;\n    background-color: pink;\n}\n#product-range[data-v-0193cba5] {\n    margin-top: 20px;\n    width: 200px;\n    height: 100px;\n    background-color: pink;\n}\n#product-grid[data-v-0193cba5] {\n    width: 70%;\n    float: right;\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(200px, 250px));\n    height: 300px;\n    grid-row-gap: 25px;\n}\n", ""]);
 
 // exports
 
@@ -2971,7 +2959,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n#whole[data-v-7355cd05] {\n   height: 100%;\n   width: 100%;\n   overflow-x: hidden;\n   position: absolute;\n}\n#nav[data-v-7355cd05] {\n   top: 0;\n   height: 100.8px;\n   position: relative;\n   z-index: 1;\n}\n#container[data-v-7355cd05] {\n   position: relative;\n   /* height: 90%; */\n}\n", ""]);
+exports.push([module.i, "\n#whole[data-v-7355cd05] {\n   height: 100%;\n   width: 100%;\n   overflow-x: hidden;\n   position: absolute;\n}\n#nav[data-v-7355cd05] {\n   top: 0;\n   height: 100.8px;\n   position: relative;\n   z-index: 1;\n}\n#container[data-v-7355cd05] {\n   position: relative;\n}\n", ""]);
 
 // exports
 
@@ -2990,7 +2978,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\n#root[data-v-2f9e3d6a] {\n        font-family: 'Quicksand', sans-serif;\n        height: 100%;\n        /* width: 25%; */\n}\n#title[data-v-2f9e3d6a] {\n        height: 100%;\n        /* padding: 23px 30px 15px 30px; */\n        padding: 1.1em 1em 1.1em 1em;\n        display: -webkit-box;\n        display: flex;\n        -webkit-box-align: center;\n                align-items: center;\n        /* position: relative; */\n        /* display: table-cell; */\n        /* vertical-align: middle; */\n        position: -webkit-sticky;\n        position: sticky;\n        color: #00A896;\n        font-weight: bold;\n        text-align: center;\n        /* margin-top: -12px; */\n        font-size: 20px;\n}\n#dropdown[data-v-2f9e3d6a] {\n        display: none;\n        background-color: #FFFFFF;\n        color: #00A896;\n        width: 100%;\n        position: absolute;\n        left: 0;\n        /* margin-top: -15px; */\n        box-shadow: 0 3px 5px -3px #0000007a;\n}\np[data-v-2f9e3d6a] {\n        padding: 11px;\n        margin: 0;\n}\np[data-v-2f9e3d6a]:hover {\n        background-color: #F2F2F2;\n}\n.router-link[data-v-2f9e3d6a] {\n        text-decoration: none;\n        color: #00A896;\n}\n/* \n    @media only screen and (max-width: 990px) {\n\n        #title {\n            padding: 0 20% 0 20%;\n            margin: auto;\n            width: 100%;\n        }\n    } */\n\n", ""]);
+exports.push([module.i, "\n#root[data-v-2f9e3d6a] {\n        font-family: 'Quicksand', sans-serif;\n        height: 100%;\n}\n#title[data-v-2f9e3d6a] {\n        height: 100%;\n        padding: 1.1em 1em 1.1em 1em;\n        display: -webkit-box;\n        display: flex;\n        -webkit-box-align: center;\n                align-items: center;\n        position: -webkit-sticky;\n        position: sticky;\n        color: #00A896;\n        font-weight: bold;\n        text-align: center;\n        font-size: 20px;\n}\n#dropdown[data-v-2f9e3d6a] {\n        display: none;\n        background-color: #FFFFFF;\n        color: #00A896;\n        width: 100%;\n        position: absolute;\n        left: 0;\n        box-shadow: 0 3px 5px -3px #0000007a;\n}\np[data-v-2f9e3d6a] {\n        padding: 11px;\n        margin: 0;\n}\np[data-v-2f9e3d6a]:hover {\n        background-color: #F2F2F2;\n}\n.router-link[data-v-2f9e3d6a] {\n        text-decoration: none;\n        color: #00A896;\n}\n/* \n    @media only screen and (max-width: 990px) {\n\n        #title {\n            padding: 0 20% 0 20%;\n            margin: auto;\n            width: 100%;\n        }\n    } */\n\n", ""]);
 
 // exports
 
@@ -4725,7 +4713,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "root" } }, [
     _c("div", { attrs: { id: "top-bar" } }, [
-      _vm._v("\n        Store / Seeds\n    ")
+      _vm._v("\n        Store / Tools\n    ")
     ]),
     _vm._v(" "),
     _c("div", { attrs: { id: "bottom" } }, [
@@ -20138,6 +20126,23 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   }, {
     path: '/store',
     name: 'store',
+    component: _components_Components_Store_Store__WEBPACK_IMPORTED_MODULE_6__["default"] //Make routes for each, go to it using prop in place. 
+
+  }, {
+    path: '/store/seeds',
+    name: 'store-seeds',
+    component: _components_Components_Store_Store__WEBPACK_IMPORTED_MODULE_6__["default"]
+  }, {
+    path: '/store/planters',
+    name: 'store-planters',
+    component: _components_Components_Store_Store__WEBPACK_IMPORTED_MODULE_6__["default"]
+  }, {
+    path: '/store/tools',
+    name: 'store-tools',
+    component: _components_Components_Store_Store__WEBPACK_IMPORTED_MODULE_6__["default"]
+  }, {
+    path: '/store/soil',
+    name: 'store-soil',
     component: _components_Components_Store_Store__WEBPACK_IMPORTED_MODULE_6__["default"]
   }]
 });

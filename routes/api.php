@@ -17,4 +17,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+//Product Routes
 Route::get('product', 'ProductController@index');
+Route::get('product/seeds', 'ProductController@getSeeds');
+Route::get('product/planters', 'ProductController@getPlanters');
+Route::get('product/tools', 'ProductController@getTools');
+Route::get('product/soil', 'ProductController@getSoil');
+

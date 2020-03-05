@@ -22,23 +22,17 @@
     #root {
         font-family: 'Quicksand', sans-serif;
         height: 100%;
-        /* width: 25%; */
     }
 
     #title {
         height: 100%;
-        /* padding: 23px 30px 15px 30px; */
         padding: 1.1em 1em 1.1em 1em;
         display: flex;
         align-items: center;
-        /* position: relative; */
-        /* display: table-cell; */
-        /* vertical-align: middle; */
         position: sticky;
         color: #00A896;
         font-weight: bold;
         text-align: center;
-        /* margin-top: -12px; */
         font-size: 20px;
     }
 
@@ -49,7 +43,6 @@
         width: 100%;
         position: absolute;
         left: 0;
-        /* margin-top: -15px; */
         box-shadow: 0 3px 5px -3px #0000007a;
     }
 

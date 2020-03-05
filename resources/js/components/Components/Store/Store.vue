@@ -1,7 +1,7 @@
 <template>
     <div id="root">
         <div id="top-bar">
-            Store / Seeds
+            Store / Tools
         </div>
 
         <div id="bottom">
@@ -24,13 +24,9 @@
 </template>
 
 <style scoped>
-    #root {
-        /* height: 100%; */
-    }
 
     #bottom {
         margin-top: 3%;
-        /* margin-bottom: 30px; */
     }
 
     #top-bar {
@@ -88,7 +84,7 @@
             }
         },
         mounted() {
-            axios.get('api/product').then(response => (this.products = response.data));
+            axios.get('api/product/seeds').then(response => (this.products = response.data));
         }
     }
 </script>

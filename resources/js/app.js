@@ -32,6 +32,26 @@ const router = new VueRouter({
         {
             path: '/store',
             name: 'store',
+            component: Store //Make routes for each, go to it using prop in place. 
+        },
+        {
+            path: '/store/seeds',
+            name: 'store-seeds',
+            component: Store
+        },
+        {
+            path: '/store/planters',
+            name: 'store-planters',
+            component: Store
+        },
+        {
+            path: '/store/tools',
+            name: 'store-tools',
+            component: Store
+        },
+        {
+            path: '/store/soil',
+            name: 'store-soil',
             component: Store
         }
     ]
